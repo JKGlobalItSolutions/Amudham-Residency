@@ -8,9 +8,11 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    base:"/Amudham-Residency/"
+    
   },
+
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  base:"/Amudham-Residency/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
