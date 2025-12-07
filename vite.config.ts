@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    base:"/Amudham-Residency-website/"
+    base:"/Amudham-Residency/"
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
