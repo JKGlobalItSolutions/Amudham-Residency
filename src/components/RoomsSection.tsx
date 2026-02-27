@@ -1,16 +1,16 @@
 import { Badge } from "@/components/ui/badge";
 import { Bed, Users } from "lucide-react";
 import RoomCard from "./RoomCard";
-import deluxeBedroom from "@/assets/deluxe-bedroom.jpg";
-import deluxeWashroom from "@/assets/deluxe-washroom.jpg";
-import deluxeInterior from "@/assets/deluxe-interior.jpg";
-import deluxeAmenities from "@/assets/deluxe-amenities.jpg";
-import deluxeExterior from "@/assets/deluxe-exterior.jpg";
-import dormBeds from "@/assets/dorm-beds.jpg";
-import dormWashroom from "@/assets/dorm-washroom.jpg";
-import dormStorage from "@/assets/dorm-storage.jpg";
-import dormCommon from "@/assets/dorm-common.jpg";
-import dormEntrance from "@/assets/dorm-entrance.jpg";
+import deluxeBedroom from "@/assets/deluxe-bedroom.jpeg";
+import deluxeWashroom from "@/assets/deluxe-washroom.jpeg";
+import deluxeInterior from "@/assets/deluxe-interior.jpeg";
+import deluxeAmenities from "@/assets/deluxe-amenities.jpeg";
+import deluxeExterior from "@/assets/deluxe-exterior.jpeg";
+import dormBeds from "@/assets/dorm-beds.jpeg";
+import dormWashroom from "@/assets/dorm-washroom.jpeg";
+import dormStorage from "@/assets/dorm-storage.jpeg";
+// import dormCommon from "@/assets/dorm-common.jpeg";
+import dormEntrance from "@/assets/dorm-entrance.jpeg";
 
 const RoomsSection = () => {
   const rooms = [
@@ -27,7 +27,7 @@ const RoomsSection = () => {
       count: "20 Members Capacity",
       icon: Users,
       features: ["Spacious Layout", "Clean & Hygienic", "Ideal for Groups", "Budget Friendly"],
-      images: [dormBeds, dormWashroom, dormStorage, dormCommon, dormEntrance],
+      images: [dormBeds, dormWashroom, dormStorage, dormEntrance],
       imageLabels: ["Bunk Bed Setup", "Shared Washroom", "Storage Area", "Common Space", "Entrance"]
     }
   ];

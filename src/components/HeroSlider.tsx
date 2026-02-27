@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Phone, ChevronLeft, ChevronRight } from "lucide-react";
-import heroSlide1 from "@/assets/hero-slide-1.jpg";
-import heroSlide2 from "@/assets/hero-slide-2.jpg";
-import heroSlide3 from "@/assets/hero-slide-3.jpg";
+import heroSlide1 from "@/assets/hero-slide-1.jpeg";
+import heroSlide2 from "@/assets/hero-slide-2.jpeg";
+import heroSlide3 from "@/assets/hero-slide-3.jpeg";
 
 const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

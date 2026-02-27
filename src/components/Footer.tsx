@@ -80,21 +80,19 @@ const Footer = () => {
             <div className="space-y-3 text-muted-foreground">
               <div className="flex items-center gap-2 justify-center md:justify-start">
                 <MapPin className="w-4 h-4 text-aqua" />
-                <span>Tiruvannamalai, Tamil Nadu</span>
+                <span>Nallavanpalayam, 606603 Tiruvannāmalai, IndiaAfter booking, all of the property’s details, including telephone and address, are provided in your booking confirmation and your account.
+</span>
               </div>
               <div className="flex flex-col gap-1 items-center md:items-start">
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4 text-aqua" />
-                  <a href="tel:+919600900171" className="hover:text-aqua transition-colors">+91 9600900171</a>
+                  <a href="tel:+919600900171" className="hover:text-aqua transition-colors">+91 6382726613</a>
                 </div>
-                <div className="flex items-center gap-2">
-                  <Phone className="w-4 h-4 text-aqua" />
-                  <a href="tel:+919600900896" className="hover:text-aqua transition-colors">+91 9600900896</a>
-                </div>
+                
               </div>
               <div className="flex items-center gap-2 justify-center md:justify-start">
                 <Mail className="w-4 h-4 text-aqua" />
-                <span>contact@amudhamresidency.com</span>
+                <span>amudhamresortandhotel@gmail.com</span>
               </div>
             </div>
           </div>
@@ -102,7 +100,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-border text-center text-muted-foreground">
           <div className="aqua-divider mb-8" />
-          <p>&copy; 2025 Amudham Residency. All rights reserved.</p>
+          <p>&copy; 2026 Amudham Residency. All rights reserved.</p>
         </div>
       </div>
     </footer>

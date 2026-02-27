@@ -2,29 +2,29 @@ import { useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
-import deluxeBedroom from "@/assets/deluxe-bedroom.jpg";
-import deluxeWashroom from "@/assets/deluxe-washroom.jpg";
-import deluxeInterior from "@/assets/deluxe-interior.jpg";
-import dormBeds from "@/assets/dorm-beds.jpg";
-import dormCommon from "@/assets/dorm-common.jpg";
-import galleryReception from "@/assets/gallery-reception.jpg";
-import galleryParking from "@/assets/gallery-parking.jpg";
-import galleryDining from "@/assets/gallery-dining.jpg";
-import heroSlide1 from "@/assets/hero-slide-1.jpg";
+import deluxeBedroom from "@/assets/deluxe-bedroom.jpeg";
+import deluxeWashroom from "@/assets/deluxe-washroom.jpeg";
+import deluxeInterior from "@/assets/deluxe-interior.jpeg";
+import dormBeds from "@/assets/dorm-beds.jpeg";
+// import dormCommon from "@/assets/dorm-common.jpeg";
+import galleryReception from "@/assets/gallery-reception.jpeg";
+import galleryParking from "@/assets/gallery-parking.jpeg";
+import galleryDining from "@/assets/gallery-dining.jpeg";
+import heroSlide1 from "@/assets/hero-slide-1.jpeg";
 
 const GallerySection = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const galleryImages = [
-    { src: heroSlide1, label: "Building Exterior" },
-    { src: galleryReception, label: "Reception & Lobby" },
+    { src: heroSlide1, label: "Room Interior" },
+    { src: galleryReception, label: "Deluxe Room" },
     { src: deluxeBedroom, label: "Deluxe Room" },
     { src: deluxeWashroom, label: "Modern Bathroom" },
     { src: deluxeInterior, label: "Room Interior" },
     { src: dormBeds, label: "Dormitory" },
-    { src: dormCommon, label: "Common Area" },
-    { src: galleryParking, label: "Parking Area" },
-    { src: galleryDining, label: "Dining Area" }
+    // { src: dormCommon, label: "Common Area" },
+    { src: galleryParking, label: "common Area" },
+    { src: galleryDining, label: "Bedroom" }
   ];
 
   const openImage = (index: number) => setSelectedImage(index);

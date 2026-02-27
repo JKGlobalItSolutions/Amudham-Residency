@@ -29,6 +29,9 @@ const ContactSection = () => {
                     <h3 className="font-semibold text-lg mb-2 text-navy">Address</h3>
                     <p className="text-muted-foreground">
                       Amudham Residency<br />
+                      Nallavanpalayam, 606603 Tiruvannāmalai,
+<br />
+                  
                       Tiruvannamalai, Tamil Nadu<br />
                       India - 606601
                     </p>
@@ -95,7 +98,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-2 text-navy">Email</h3>
-                    <p className="text-muted-foreground">contact@amudhamresidency.com</p>
+                    <p className="text-muted-foreground">amudhamresortandhotel@gmail.com</p>
                   </div>
                 </div>
               </CardContent>

@@ -1,6 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Stethoscope, Zap, UtensilsCrossed, Coffee } from "lucide-react";
+import dormBeds from "@/assets/dorm-beds.jpeg";
 
 const AboutSection = () => {
   const features = [
@@ -17,18 +18,13 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Video Section */}
           <div className="animate-fade-in">
-            <div className="aspect-video rounded-2xl overflow-hidden shadow-elegant border-t-4 border-aqua bg-card">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="Amudham Residency Video"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full"
-              ></iframe>
-            </div>
+           <div className="aspect-video rounded-2xl overflow-hidden shadow-elegant border-t-4 border-aqua bg-card">
+  <img
+    src={dormBeds}
+    alt="Amudham Residency"
+    className="w-full h-full object-cover"
+  />
+</div>
           </div>
 
           {/* Content Section */}
